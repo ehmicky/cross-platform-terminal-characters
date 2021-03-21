@@ -1,3 +1,5 @@
+import test from 'ava'
+
 import { codepoints } from '../src/main.js'
 
 test('Dummy', (t) => {
