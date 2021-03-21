@@ -221,8 +221,10 @@ console.log(characters)
 
 # See also
 
-- https://github.com/ehmicky/cross-platform-node-guide
-- https://github.com/sindresorhus/figures
+- https://github.com/ehmicky/cross-platform-node-guide: How to write
+  cross-platform Node.js code.
+- https://github.com/sindresorhus/figures: Unicode symbols with Windows
+  `cmd.exe` fallbacks
 
 # Support
 
