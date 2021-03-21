@@ -1,5 +1,5 @@
-import { stderr } from 'process'
+import { codepoints } from '../src/main.js'
 
-import { getCategory, hasStyle } from './helpers/main.js'
-
-test('Dummy', async (t) => {})
+test('Dummy', (t) => {
+  t.true(Array.isArray(codepoints))
+})

@@ -5,6 +5,8 @@ const codepointToCharacter = function (codepoint) {
   return String.fromCharCode(codepoint)
 }
 
+export const regexp = /.*/u
+
 export const codepoints = [0x2588]
 
 export const characters = codepoints.map()
