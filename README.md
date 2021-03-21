@@ -8,16 +8,17 @@ All the characters that work on any terminal and any operating system.
 
 # Background
 
-While ASCII characters display correctly on all terminals, this is not the case
-of all characters. When building a terminal tool or application, it is common to
-experience cross-platform issues like:
+While [ASCII characters](https://en.wikipedia.org/wiki/ASCII) display correctly
+on all terminals, this is not the case of all characters. When building a
+terminal application or tool, it is common to experience cross-platform issues
+like:
 
 (TODO: insert screenshot)
 
 The main reasons are:
 
-- The terminal font might not include a specific character.
-- The encoding of the terminal may not support
+- The terminal font might not include this specific character.
+- The terminal encoding may not support
   [Unicode](https://en.wikipedia.org/wiki/Unicode). For example,
   [`cmd.exe`](https://en.wikipedia.org/wiki/Cmd.exe) on Windows often use
   specific encodings like [CP437](https://en.wikipedia.org/wiki/Code_page_437),
@@ -40,7 +41,8 @@ Some box drawing characters are repeated on multiple rows or columns.
 ## ASCII
 
 Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
-`0020-007f` work on all terminals.
+[`0020-007f`](<https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block)>) work
+on all terminals.
 
 [Control characters](https://en.wikipedia.org/wiki/Control_character)
 `0000-001f` and `0080-009f` have varying levels of support. However, the most
@@ -48,14 +50,15 @@ commonly used ones work on all terminals.
 
 ## Western languages
 
-Almost all characters with
-[Unicode codepoints](https://en.wikipedia.org/wiki/Code_point) `00a0-058f` and
-`1d00-1fff` work on most terminals. This includes:
+Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
+`00a0-058f` and `1d00-1fff` work on most terminals. They include:
 
-- latin alphabet
-- greek/coptic, cyrillic, armenian alphabets
-- phonetic alphabet
-- accents / diacritical marks
+- [latin alphabet](<https://en.wikipedia.org/wiki/Latin-1_Supplement_(Unicode_block)>)
+- [greek/coptic](https://en.wikipedia.org/wiki/Greek_and_Coptic),
+  [cyrillic](<https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)>),
+  [armenian alphabets](<https://en.wikipedia.org/wiki/Armenian_(Unicode_block)>)
+- [phonetic alphabet](https://en.wikipedia.org/wiki/IPA_Extensions)
+- [accents / diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks)
 
 ## Box drawing
 
