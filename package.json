@@ -1,0 +1,17 @@
+{
+  "name": "cross-platform-terminal-characters",
+  "version": "1.0.0",
+  "files": [],
+  "description": "",
+  "keywords": [],
+  "license": "CC-BY-4.0",
+  "homepage": "https://git.io/JYOfW",
+  "repository": "ehmicky/cross-platform-terminal-characters",
+  "bugs": {
+    "url": "https://github.com/ehmicky/cross-platform-terminal-characters/issues"
+  },
+  "author": "ehmicky <ehmicky@gmail.com> (https://github.com/ehmicky)",
+  "devDependencies": {
+    "@ehmicky/dev-tasks": "^0.31.87"
+  }
+}
