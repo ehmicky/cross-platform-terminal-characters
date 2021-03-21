@@ -13,7 +13,7 @@ on all terminals, this is not the case of all characters. When building a
 terminal application or tool, it is common to experience cross-platform issues
 like:
 
-(TODO: insert screenshot)
+<img src="https://raw.githubusercontent.com/ehmicky/cross-platform-terminal-characters/main/invalid_terminal_characters.png" width="500"/>
 
 The main reasons are:
 
