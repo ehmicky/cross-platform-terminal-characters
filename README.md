@@ -1,4 +1,3 @@
-[![Codecov](https://img.shields.io/codecov/c/github/ehmicky/cross-platform-terminal-charactersccc.svg?label=tested&logo=codecov)](https://codecov.io/gh/ehmicky/cross-platform-terminal-characters)
 [![Build](https://github.com/ehmicky/cross-platform-terminal-characters/workflows/Build/badge.svg)](https://github.com/ehmicky/cross-platform-terminal-characters/actions)
 [![Node](https://img.shields.io/node/v/cross-platform-terminal-characters.svg?logo=node.js)](https://www.npmjs.com/package/cross-platform-terminal-characters)
 [![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-4cc61e.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
