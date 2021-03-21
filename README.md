@@ -65,7 +65,6 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ```
 2588 2593 2592 2591 2580 2584 25ac 25a0 25aa 25a1 25ab 258c 2590
 █ ██ ▓ ▓▓ ▒ ▒▒ ░ ░░ ▀ ▀▀ ▄ ▄▄ ▬ ▬▬ ■ ■■ ▪ ▪▪ □ □□ ▫ ▫▫ ▌ ▌▌ ▐ ▐▐
-  ██   ▓▓   ▒▒   ░░   ▀▀   ▄▄   ▬▬   ■■   ▪▪   □□   ▫▫   ▌▌   ▐▐
 
 2500 2012 2014 2015 203e 2501 2550
 ─    ‒    —    ―    ‾    ━    ═
@@ -75,7 +74,6 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 
 2502 2503 2551 2016 2506 2507 250a 205e 250b 254e 254f 2575 2579 2577 257b 257d 257f
 ││   ┃┃   ║║   ‖‖   ┆┆   ┇┇   ┊┊   ⁞⁞   ┋┋   ╎╎   ╏╏   ╵╵   ╹╹   ╷╷   ╻╻   ╽╽   ╿╿
- │    ┃    ║    ‖    ┆    ┇    ┊    ⁞    ┋    ╎    ╏    ╵    ╹    ╷    ╻    ╽    ╿
 
 250c 256d 250f 250d 250e 2554 2552 2553
 ┌    ╭    ┏    ┍    ┎    ╔    ╒    ╓
@@ -100,7 +98,6 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 
 2573 2572 2571 2044 2215
 ╳    ╲     ╱    ⁄    ∕
-      ╲   ╱    ⁄    ∕
 ```
 
 ## Geometrical shapes
