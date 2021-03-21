@@ -295,7 +295,7 @@ console.log(regex.test('≈'))
 // true, i.e. not cross-platform
 console.log(regex.test('≐'))
 // Remove not cross-platform characters, i.e. print `example ≈ test  text`
-const string = 'example ≈ test ≐ text'.replace(regex, '')
+console.log('example ≈ test ≐ text'.replace(regex, ''))
 
 // Array of codepoint integers: [0x0000, 0x0001, ..., 0xfb17]
 console.log(codepoints)
@@ -305,10 +305,10 @@ console.log(characters)
 
 # See also
 
-- https://github.com/ehmicky/cross-platform-node-guide: How to write
-  cross-platform Node.js code.
-- https://github.com/sindresorhus/figures: Unicode symbols with Windows
-  `cmd.exe` fallbacks
+- [cross-platform-node-guide](https://github.com/ehmicky/cross-platform-node-guide):
+  How to write cross-platform Node.js code.
+- [figures](https://github.com/sindresorhus/figures): Unicode symbols with
+  Windows `cmd.exe` fallbacks
 
 # Support
 
