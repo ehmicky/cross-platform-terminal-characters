@@ -1,10 +1,187 @@
-[![License](https://img.shields.io/badge/license-CC%20BY%204.0-4cc61e.svg?logo=github)](https://creativecommons.org/licenses/by/4.0/)
 [![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-4cc61e.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
 [![Medium](https://img.shields.io/badge/%E2%80%8B-medium-4cc61e.svg?logo=medium)](https://medium.com/@ehmicky)
 
-Tagline.
+All the characters that work on any terminal and any OS.
 
-Work in progress.
+# Background
+
+While ASCII characters display correctly on all terminals, this is not the case
+of all characters. When building a terminal tool or application, it is common to
+experience cross-platform issues like:
+
+(TODO: insert screenshot)
+
+The main reasons are:
+
+- The terminal font might not include a specific character.
+- The encoding of the terminal may not support
+  [Unicode](https://en.wikipedia.org/wiki/Unicode). For example,
+  [`cmd.exe`](https://en.wikipedia.org/wiki/Cmd.exe) on Windows often use
+  specific encodings like [CP437](https://en.wikipedia.org/wiki/Code_page_437),
+  [CP850](https://en.wikipedia.org/wiki/Code_page_850) or
+  [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252).
+- The application might not be properly converting encodings when reading or
+  writing terminal characters.
+
+The first two points can be solved by using characters known to display
+correctly on most terminals and environments.
+
+# List of characters
+
+The following characters work on most terminals.
+
+When the character is displayed, its
+[Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
+Some box drawing characters are repeated on multiple rows or columns.
+
+## ASCII
+
+Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
+`0020-007f` work on all terminals.
+
+[Control characters](https://en.wikipedia.org/wiki/Control_character)
+`0000-001f` and `0080-009f` have varying levels of support. However, the most
+commonly used ones work on all terminals.
+
+## Western languages
+
+Almost all characters with
+[Unicode codepoints](https://en.wikipedia.org/wiki/Code_point) `00a0-058f` and
+`1d00-1ff` work on most terminals. This includes:
+
+- latin alphabet
+- greek/coptic, cyrillic, armenian alphabets
+- phonetic alphabet
+- accents / diacritical marks
+
+## Box drawing
+
+```
+2588 2593 2592 2591 2580 2584 25ac 25a0 25aa 25a1 25ab 258c 2590
+█ ██ ▓ ▓▓ ▒ ▒▒ ░ ░░ ▀ ▀▀ ▄ ▄▄ ▬ ▬▬ ■ ■■ ▪ ▪▪ □ □□ ▫ ▫▫ ▌ ▌▌ ▐ ▐▐
+  ██   ▓▓   ▒▒   ░░   ▀▀   ▄▄   ▬▬   ■■   ▪▪   □□   ▫▫   ▌▌   ▐▐
+
+2500 2012 2014 2015 203e 2501 2550
+─    ‒    —    ―    ‾    ━    ═
+2504 2505 2508 2509 254c 254d 2212 2574 2013 2010 2578 2576 2043 257a 257c 257e
+┄    ┅    ┈    ┉    ╌    ╍    −    ╴    –    ‐    ╸    ╶    ⁃    ╺    ╼    ╾
+┄┄   ┅┅   ┈┈   ┉┉   ╌╌   ╍╍   −−   ╴╴   ––   ‐‐   ╸╸   ╶╶   ⁃⁃   ╺╺   ╼╼   ╾╾
+
+2502 2503 2551 2016 2506 2507 250a 205e 250b 254e 254f 2575 2579 2577 257b 257d 257f
+││   ┃┃   ║║   ‖‖   ┆┆   ┇┇   ┊┊   ⁞⁞   ┋┋   ╎╎   ╏╏   ╵╵   ╹╹   ╷╷   ╻╻   ╽╽   ╿╿
+ │    ┃    ║    ‖    ┆    ┇    ┊    ⁞    ┋    ╎    ╏    ╵    ╹    ╷    ╻    ╽    ╿
+
+250c 256d 250f 250d 250e 2554 2552 2553
+┌    ╭    ┏    ┍    ┎    ╔    ╒    ╓
+2510 256e 2513 2511 2512 2557 2555 2556
+┐    ╮    ┓    ┑    ┒    ╗    ╕    ╖
+2514 2570 2517 2515 2516 255a 2558 2559
+└    ╰    ┗    ┕    ┖    ╚    ╘    ╙
+2518 256f 251b 2519 251a 255d 255b 255c
+┘    ╯    ┛    ┙    ┚    ╝    ╛    ╜
+251c 2523 251d 251e 251f 2520 2521 2522 2560 255e 255f
+├    ┣    ┝    ┞    ┟    ┠    ┡    ┢    ╠    ╞    ╟
+2524 252b 2525 2526 2527 2528 2529 252a 2563 2561 2562
+┤    ┫    ┥    ┦    ┧    ┨    ┩    ┪    ╣    ╡    ╢
+252c 2533 252d 252e 252f 2530 2531 2532 2566 2564 2565
+┬    ┳    ┭    ┮    ┯    ┰    ┱    ┲    ╦    ╤    ╥
+2534 253b 2535 2536 2537 2538 2539 253a 2569 2567 2568
+┴    ┻    ┵    ┶    ┷    ┸    ┹    ┺    ╩    ╧    ╨
+253c 254b 253d 253e 253f 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 254a
+┼    ╋    ┽    ┾    ┿    ╀    ╁    ╂    ╃    ╄    ╅    ╆    ╇    ╈    ╉    ╊
+256c 256a 256b
+╬    ╪    ╫
+
+2573 2572 2571 2044 2215
+╳    ╲     ╱    ⁄    ∕
+      ╲   ╱    ⁄    ∕
+```
+
+## Geometrical shapes
+
+```
+2024 2219 2022 25e6 25cb 25cc 25cf
+․    ∙    •    ◦    ○    ◌    ●
+25b2 25b4 25b8 25ba 25bc 25be 25c2 25c4
+▲    ▴    ▸    ►    ▼    ▾    ◂    ◄
+2190 2191 2192 2193 2194 2195
+←    ↑    →    ↓    ↔    ↕
+2302 25ca 25d8 25d9
+⌂    ◊    ◘    ◙
+```
+
+## Punctuation
+
+```
+2026 2030 203c 203d
+…    ‰    ‼    ‽
+
+2018 2019 201a 201b 201c 201d 201e 201f 2032 2033 2e17 2039 203a
+‘    ’    ‚    ‛    “    ”    „    ‟    ′    ″    ⸗    ‹    ›
+```
+
+## Numbers and math
+
+```
+2248 2260 2261 2264 2265
+≈    ≠    ≡    ≤    ≥
+
+2202 2206 220f 2211 221a 221e 221f 2229 222b 2310 2320 2321
+∂    ∆    ∏    ∑    √    ∞    ∟    ∩    ∫    ⌐    ⌠    ⌡
+
+2153 2154 2155 2156 2157 2158 2159 215a 215b 215c 215d 215e
+⅓    ⅔    ⅕    ⅖    ⅗    ⅘    ⅙    ⅚    ⅛    ⅜    ⅝    ⅞
+
+2070 2071 2074 2075 2076 2077 2078 2079 207a 207b 207c 207d 207e 207f
+⁰    ⁱ    ⁴    ⁵    ⁶    ⁷    ⁸    ⁹    ⁺    ⁻    ⁼    ⁽    ⁾    ⁿ
+2080 2081 2082 2083 2084 2085 2086 2087 2088 2089 208a 208b 208c 208d 208e
+₀    ₁    ₂    ₃    ₄    ₅    ₆    ₇    ₈    ₉    ₊    ₋    ₌    ₍    ₎
+2090 2091 2092 2093 2094
+ₐ    ₑ    ₒ    ₓ    ₔ
+
+2460 2461 2462 2463 2464 2465 2466 2467 2468 2469 246a 246b 246c 246d 246e 246f
+①   ②    ③   ④    ⑤   ⑥    ⑦   ⑧    ⑨   ⑩    ⑪   ⑫    ⑬   ⑭    ⑮   ⑯
+2470 2471 2472 2473 24ea 24ef 24f0 24f1 24f2 24f3 24f4
+⑰    ⑱    ⑲    ⑳    ⓪    ⓯    ⓰    ⓱    ⓲    ⓳    ⓴
+24ff 2776 2777 2778 2779 277a 277b 277c 277d 277e 277f
+⓿    ❶    ❷    ❸    ❹    ❺    ❻    ❼    ❽    ❾    ❿
+```
+
+## Other symbols
+
+```
+2020 2021 263a 263b 263c 2736 2640 2642 2660 2663 2665 2666 266a 266b 266f
+†    ‡    ☺    ☻    ☼    ✶    ♀    ♂    ♠    ♣    ♥    ♦    ♪    ♫    ♯
+
+2105 2113 2116 2117 2122 2126 212e 2132 214d 214e 2183 2184
+℅    ℓ    №    ℗    ™    Ω    ℮    Ⅎ    ⅍    ⅎ    Ↄ    ↄ
+
+20a0 20a1 20a2 20a3 20a4 20a5 20a6 20a7 20a8 20a9 20aa 20ab 20ac 20ad 20ae 20af
+₠    ₡    ₢    ₣    ₤    ₥    ₦    ₧    ₨    ₩    ₪    ₫    €    ₭    ₮    ₯
+20b0 20b1 20b2 20b3 20b4 20b5 20b6 20b7 20b8 20b9 20ba 20bd 20bf 0e3f
+₰    ₱    ₲    ₳    ₴    ₵    ₶    ₷    ₸    ₹    ₺    ₽    ₿    ฿
+```
+
+## Miscellaneous
+
+```
+2c60 2c61 2c62 2c63 2c64 2c65 2c66 2c67 2c68 2c69 2c6a 2c6b 2c6c 2c6d 2c6e 2c6f
+Ⱡ    ⱡ    Ɫ    Ᵽ    Ɽ    ⱥ    ⱦ    Ⱨ    ⱨ    Ⱪ    ⱪ    Ⱬ    ⱬ    Ɑ    Ɱ    Ɐ
+2c70 2c71 2c72 2c73 2c74 2c75 2c76 2c77 2c78 2c79 2c7a 2c7b 2c7c 2c7d 2c7e 2c7f
+Ɒ    ⱱ    Ⱳ    ⱳ    ⱴ    Ⱶ    ⱶ    ⱷ    ⱸ    ⱹ    ⱺ    ⱻ    ⱼ    ⱽ    Ȿ    Ɀ
+
+a717 a718 a719 a71a a71b a71c a71d a71e a71f a720 a721
+ꜗ     ꜘ     ꜙ     ꜚ     ꜛ    ꜜ    ꜝ    ꜞ    ꜟ    ꜠     ꜡
+a788 a789 a78a a78b a78c
+ꞈ    ꞉    ꞊    Ꞌ    ꞌ
+
+fb00 fb01 fb02 fb03 fb04 fb05 fb06
+ﬀ    ﬁ    ﬂ    ﬃ    ﬄ    ﬅ    ﬆ
+
+fb13 fb14 fb15 fb16 fb17
+ﬓ   ﬔ   ﬕ   ﬖ   ﬗ
+
+```
 
 # See also
 
