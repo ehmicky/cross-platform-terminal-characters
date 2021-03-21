@@ -310,6 +310,8 @@ console.log(characters)
   How to write cross-platform Node.js code.
 - [figures](https://github.com/sindresorhus/figures): Unicode symbols with
   Windows `cmd.exe` fallbacks
+- [log-symbols](https://github.com/sindresorhus/log-symbols): Colored symbols
+  for various log levels
 
 # Support
 
