@@ -206,10 +206,12 @@ const {
   characters,
 } = require('cross-platform-terminal-characters')
 
-// true, i.e. cross-platform
+// false, i.e. cross-platform
 console.log(regexp.test('≈'))
-// false, i.e. not cross-platform
+// true, i.e. not cross-platform
 console.log(regexp.test('≐'))
+// Remove not cross-platform characters, i.e. print `example ≈ test  text`
+const string = 'example ≈ test ≐ text'.replace(regexp, '')
 
 // Array of codepoint integers: [0x0000, 0x0001, ..., 0xfb17]
 console.log(codepoints)
