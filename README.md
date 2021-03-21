@@ -50,7 +50,7 @@ commonly used ones work on all terminals.
 
 Almost all characters with
 [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point) `00a0-058f` and
-`1d00-1ff` work on most terminals. This includes:
+`1d00-1fff` work on most terminals. This includes:
 
 - latin alphabet
 - greek/coptic, cyrillic, armenian alphabets
