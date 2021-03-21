@@ -1,6 +1,6 @@
 import test from 'ava'
 
-import { codepoints, characters, regexp } from '../src/main.js'
+import { codepoints, characters, regex } from '../src/main.js'
 
 test('codepoints has a valid shape', (t) => {
   t.true(Array.isArray(codepoints))
@@ -43,19 +43,22 @@ test('characters corresponds to codepoints', (t) => {
 })
 
 test('regexp matches none of the characters', (t) => {
-  t.true(characters.every((character) => !regexp.test(character)))
+  t.true(characters.every((character) => !regex.test(character)))
 })
 
-const NON_CROSS_PLATFORM_CHAR = '\u20bc'
+const NON_CROSS_PLATFORM_CHAR = '\u20BC'
 
 test('regexp matches some characters', (t) => {
+  // Fixes some odd bug in ESLint
+  const regexp = regex
+
   t.true(regexp.test(`test ${NON_CROSS_PLATFORM_CHAR} test`))
 })
 
 test('regexp uses the global flag', (t) => {
   t.is(
     `test ${NON_CROSS_PLATFORM_CHAR} ${NON_CROSS_PLATFORM_CHAR} test`.replace(
-      regexp,
+      regex,
       '',
     ),
     'test   test',

@@ -201,17 +201,17 @@ npm install cross-platform-terminal-characters
 
 ```js
 const {
-  regexp,
+  regex,
   codepoints,
   characters,
 } = require('cross-platform-terminal-characters')
 
 // false, i.e. cross-platform
-console.log(regexp.test('≈'))
+console.log(regex.test('≈'))
 // true, i.e. not cross-platform
-console.log(regexp.test('≐'))
+console.log(regex.test('≐'))
 // Remove not cross-platform characters, i.e. print `example ≈ test  text`
-const string = 'example ≈ test ≐ text'.replace(regexp, '')
+const string = 'example ≈ test ≐ text'.replace(regex, '')
 
 // Array of codepoint integers: [0x0000, 0x0001, ..., 0xfb17]
 console.log(codepoints)
