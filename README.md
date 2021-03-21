@@ -1,3 +1,6 @@
+[![Codecov](https://img.shields.io/codecov/c/github/ehmicky/cross-platform-terminal-charactersccc.svg?label=tested&logo=codecov)](https://codecov.io/gh/ehmicky/cross-platform-terminal-characters)
+[![Build](https://github.com/ehmicky/cross-platform-terminal-characters/workflows/Build/badge.svg)](https://github.com/ehmicky/cross-platform-terminal-characters/actions)
+[![Node](https://img.shields.io/node/v/cross-platform-terminal-characters.svg?logo=node.js)](https://www.npmjs.com/package/cross-platform-terminal-characters)
 [![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-4cc61e.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
 [![Medium](https://img.shields.io/badge/%E2%80%8B-medium-4cc61e.svg?logo=medium)](https://medium.com/@ehmicky)
 
@@ -181,6 +184,37 @@ fb00 fb01 fb02 fb03 fb04 fb05 fb06
 fb13 fb14 fb15 fb16 fb17
 ﬓ   ﬔ   ﬕ   ﬖ   ﬗ
 
+```
+
+# API
+
+A Node module is available to retrieve the list of characters above or test
+specific characters.
+
+## Install
+
+```
+npm install cross-platform-terminal-characters
+```
+
+## Usage
+
+```js
+const {
+  regexp,
+  codepoints,
+  characters,
+} = require('cross-platform-terminal-characters')
+
+// true, i.e. cross-platform
+console.log(regexp.test('≈'))
+// false, i.e. not cross-platform
+console.log(regexp.test('≐'))
+
+// Array of codepoint integers: [0x0000, 0x0001, ..., 0xfb17]
+console.log(codepoints)
+// Array of single-character strings: ['\x00', '\x01', ..., 'ﬗ']
+console.log(characters)
 ```
 
 # See also
