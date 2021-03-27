@@ -1,6 +1,6 @@
 {
   "name": "cross-platform-terminal-characters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/src/main.js",
   "files": [
     "build/src/**/*.{js,ts,map,json,sh,md}",
