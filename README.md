@@ -51,7 +51,7 @@ Those terminals are sufficient to catch most cross-platform issues. However, if
 some characters listed below do not display correctly on your terminal, please
 submit an issue to add your terminal.
 
-Please note this is only for terminals **not GUI applications**. This includes
+Please note this is **only for terminals not GUI applications**. This includes
 the web browser you might use to view this page. This means some characters
 might not be displayed correctly depending on your web browser's font (notably
 using **Chrome on Android**).
