@@ -21,7 +21,7 @@ The main reasons are:
 - The terminal font might not include this specific character.
 - The terminal encoding may not support
   [Unicode](https://en.wikipedia.org/wiki/Unicode). For example,
-  [`cmd.exe`](https://en.wikipedia.org/wiki/Cmd.exe) on Windows often use
+  [Windows terminal](https://en.wikipedia.org/wiki/Windows_Terminal) often use
   specific encodings like [CP437](https://en.wikipedia.org/wiki/Code_page_437),
   [CP850](https://en.wikipedia.org/wiki/Code_page_850) or
   [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252).
@@ -44,10 +44,10 @@ This was tested on:
 
 - Ubuntu 20.10, Gnome terminal 3.38.0
 - macOS 10.14, terminal.app 2.9
-- Windows 10.0.17763, cmd.exe (CP850)
+- Windows 10.0.17763, Windows terminal (CP850)
 - VSCode 1.54.3 terminal (xterm.js)
 
-With the default font for those terminals.
+With the default font.
 
 Those should be sufficient to catch most cross-platform issues, covering the
 most common cases (not EBCDIC, exotic terminal fonts, etc.). However, if some
