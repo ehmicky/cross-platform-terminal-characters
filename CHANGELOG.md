@@ -1,3 +1,10 @@
+# 1.3.0
+
+## Features
+
+- Test on XFCE terminal, Guake terminal, tilix, hyper, cmder
+- Remove non-cross platform characters from those terminals
+
 # 1.2.0
 
 ## Features
