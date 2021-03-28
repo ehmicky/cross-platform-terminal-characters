@@ -54,6 +54,7 @@ This was tested on:
 - macOS 10.14:
   - terminal.app 2.9
   - iTerm2 3.4.4
+  - Alacritty 0.7.2
 - Windows 10.0.17763:
   - Console Host (CP850):
     - `cmd.exe`
