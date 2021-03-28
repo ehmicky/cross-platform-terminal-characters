@@ -5,7 +5,7 @@
 [![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-4cc61e.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
 [![Medium](https://img.shields.io/badge/%E2%80%8B-medium-4cc61e.svg?logo=medium)](https://medium.com/@ehmicky)
 
-All the characters that work on any terminal and any operating system.
+All the characters that work on most terminals and most operating systems.
 
 # Background
 
@@ -45,6 +45,10 @@ The following characters work on most terminals. This was tested on:
 - Ubuntu 20.10, Gnome terminal 3.38.0
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, cmd.exe (CP850)
+
+Those terminals are sufficient to catch most cross-platform issues. However, if
+some characters listed below do not display correctly on your terminal, please
+submit an issue to add your terminal.
 
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
