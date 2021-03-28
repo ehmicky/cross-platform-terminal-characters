@@ -76,11 +76,17 @@ The following characters work on most terminals.
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
 
-## Control characters
+## Control characters and spaces
 
-[Control characters](https://en.wikipedia.org/wiki/Control_character)
-`0000-001f` and `0080-009f` have varying levels of support. However, the most
-commonly used ones work on all terminals.
+```
+000a Line feed          (some behavior is OS-specific)
+000d Carriage return    (some behavior is OS-specific)
+0009 Horizontal tab
+0008 Backspace          (some behavior is terminal-specific)
+001b Escape
+0020 Space
+00a0 Non-breaking space
+```
 
 ## Latin alphabet
 
@@ -308,15 +314,6 @@ y    z
 √    ∞    ∆    ⌠    ⌡
 00b0 2126 00aa 207f
 °    Ω    ª    ⁿ
-```
-
-## Spaces
-
-```
-0020
-     (space)
-00a0
-     (non-breaking space)
 ```
 
 ## Punctuation
