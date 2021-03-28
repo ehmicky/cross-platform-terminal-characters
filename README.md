@@ -48,6 +48,7 @@ This was tested on:
 - Windows 10.0.17763, Console Host (CP850), `cmd.exe`
 - Windows 10.0.17763, Console Host (CP850), Powershell 5.1
 - Windows 10.0.17763, mintty, Git-for-Windows 2.31.1
+- Windows 10.0.17763, ConEmu 201314
 - VSCode 1.54.3 terminal (xterm.js)
 
 With the default font.
