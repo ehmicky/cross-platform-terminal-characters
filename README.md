@@ -31,6 +31,13 @@ The main reasons are:
 The first two points can be solved by using characters known to display
 correctly on most terminals and environments.
 
+This repository contains a list of those characters:
+
+- in this [`README.md`](#list-of-characters)
+- as a [`characters.txt` file](characters.txt)
+- as a [binary](#cli) printing the full list
+- as a [Node.js module](#api) for programmatic usage
+
 # List of characters
 
 The following characters work on most terminals. This was tested on:
