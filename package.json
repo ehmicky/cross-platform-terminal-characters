@@ -17,7 +17,7 @@
       "pre-push": "gulp -LL check --full"
     }
   },
-  "description": "All the characters that work on most terminals and most operating systems",
+  "description": "All the characters that work on most terminals",
   "keywords": [
     "windows",
     "macos",
