@@ -53,6 +53,7 @@ encoding.
   - rxvt 9.22
   - PuTTY 0.74
   - xterm.js, VSCode 1.54.3 terminal
+  - xterm.js, hyper 3.0.2
   - Linux console (kernel)
 - macOS 10.14:
   - terminal.app 2.9
