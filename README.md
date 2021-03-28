@@ -46,6 +46,7 @@ This was tested on:
 - Ubuntu 20.10, xterm 353
 - Ubuntu 20.10, terminator 1.92
 - Ubuntu 20.10, konsole 20.08.2
+- Ubuntu 20.10, rxvt 9.22
 - Ubuntu 20.10, PuTTY 0.74
 - Ubuntu 20.10, xterm.js, VSCode 1.54.3 terminal
 - macOS 10.14, terminal.app 2.9
@@ -263,19 +264,9 @@ commonly used ones work on all terminals.
 ₦    ₧    ₨    ₩    ₪    ₫
 20ac 20ad 20ae 20af 20b0 20b1
 €    ₭    ₮    ₯    ₰    ₱
-```
 
-## Miscellaneous
-
-```
 fb00 fb01 fb02 fb03 fb04 fb05
 ﬀ    ﬁ    ﬂ    ﬃ   ﬄ    ﬅ
-fb06
-ﬆ
-
-fb13 fb14 fb15 fb16 fb17
-ﬓ   ﬔ    ﬕ   ﬖ    ﬗ
-
 ```
 
 # API

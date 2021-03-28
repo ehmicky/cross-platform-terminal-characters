@@ -136,8 +136,7 @@ export const codepoints = [
   0x266f,
   0x2736,
   ...getRange(0x2776, 0x277f),
-  ...getRange(0xfb00, 0xfb06),
-  ...getRange(0xfb13, 0xfb17),
+  ...getRange(0xfb00, 0xfb05),
 ]
 /* eslint-enable no-magic-numbers */
 
