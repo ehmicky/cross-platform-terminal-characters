@@ -42,26 +42,29 @@ This repository contains a list of those characters:
 
 This was tested on:
 
-- Ubuntu 20.10, Gnome VTE, Gnome terminal 3.38.0
-- Ubuntu 20.10, xterm 353
-- Ubuntu 20.10, terminator 1.92
-- Ubuntu 20.10, konsole 20.08.2
-- Ubuntu 20.10, rxvt 9.22
-- Ubuntu 20.10, PuTTY 0.74
-- Ubuntu 20.10, xterm.js, VSCode 1.54.3 terminal
-- macOS 10.14, terminal.app 2.9
-- macOS 10.14, iTerm2 3.4.4
-- Windows 10.0.17763, Console Host (CP850), `cmd.exe`
-- Windows 10.0.17763, Console Host (CP850), Powershell 5.1
-- Windows 10.0.17763, mintty, Git-for-Windows 2.31.1
-- Windows 10.0.17763, ConEmu 201314
+- Ubuntu 20.10:
+  - Gnome VTE, Gnome terminal 3.38.0
+  - xterm 353
+  - terminator 1.92
+  - konsole 20.08.2
+  - rxvt 9.22
+  - PuTTY 0.74
+  - xterm.js, VSCode 1.54.3 terminal
+- macOS 10.14:
+  - terminal.app 2.9
+  - iTerm2 3.4.4
+- Windows 10.0.17763:
+  - Console Host (CP850):
+    - `cmd.exe`
+    - Powershell 5.1
+  - mintty, Git-for-Windows 2.31.1
+  - ConEmu 201314
 
-With the default font.
+This does not cover:
 
-Those should be sufficient to catch most cross-platform issues, covering the
-most common cases (not EBCDIC, Linux kernel console, exotic terminal fonts,
-etc.). However, if some characters listed below do not display correctly on your
-terminal, please submit an issue.
+- EBCDIC
+- Linux Console (kernel)
+- Custom fonts
 
 Please note this is **only for terminals not GUI applications**. This includes
 the **web browser** you might use to view this page. This means some characters
