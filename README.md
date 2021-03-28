@@ -47,10 +47,12 @@ This was tested on:
 - Windows 10.0.17763, cmd.exe (CP850)
 - VSCode 1.54.3 terminal (xterm.js)
 
-Those terminals should be sufficient to catch most cross-platform issues,
-covering the most common cases (not EBCDIC, exotic terminal fonts, etc.).
-However, if some characters listed below do not display correctly on your
-terminal, please submit an issue.
+With the default font for those terminals.
+
+Those should be sufficient to catch most cross-platform issues, covering the
+most common cases (not EBCDIC, exotic terminal fonts, etc.). However, if some
+characters listed below do not display correctly on your terminal, please submit
+an issue.
 
 Please note this is **only for terminals not GUI applications**. This includes
 the **web browser** you might use to view this page. This means some characters
