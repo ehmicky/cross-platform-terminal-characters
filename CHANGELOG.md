@@ -1,3 +1,9 @@
+# 1.1.1
+
+## Bug fixes
+
+- Remove some non-cross-platform characters from the list
+
 # 1.1.0
 
 ## Features
