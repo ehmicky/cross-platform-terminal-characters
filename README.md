@@ -38,9 +38,9 @@ This repository contains a list of those characters:
 - as a [binary](#cli) printing the full list
 - as a [Node.js module](#api) for programmatic usage
 
-# List of characters
+# Terminals
 
-The following characters work on most terminals. This was tested on:
+This was tested on:
 
 - Ubuntu 20.10, Gnome terminal 3.38.0
 - macOS 10.14, terminal.app 2.9
@@ -51,8 +51,13 @@ Those terminals are sufficient to catch most cross-platform issues. However, if
 some characters listed below do not display correctly on your terminal, please
 submit an issue to add your terminal.
 
-Please note this is only for terminals, not GUI applications (including the web
-browser you might use view this page).
+Please note this is only for terminals _not GUI applications_. This includes the
+web browser you might use to view this page. This means some characters might
+not be displayed correctly depending on your web browser's font.
+
+# List of characters
+
+The following characters work on most terminals.
 
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
