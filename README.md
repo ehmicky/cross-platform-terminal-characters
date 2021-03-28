@@ -20,9 +20,9 @@ The main reasons are:
 
 - The terminal font might not include this specific character.
 - The terminal encoding may not support
-  [Unicode](https://en.wikipedia.org/wiki/Unicode). For example,
-  [Windows terminal](https://en.wikipedia.org/wiki/Windows_Terminal) often use
-  specific encodings like [CP437](https://en.wikipedia.org/wiki/Code_page_437),
+  [Unicode](https://en.wikipedia.org/wiki/Unicode). For example, Windows default
+  terminal (Console Host) often use specific encodings like
+  [CP437](https://en.wikipedia.org/wiki/Code_page_437),
   [CP850](https://en.wikipedia.org/wiki/Code_page_850) or
   [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252).
 - The application might not be properly converting encodings when reading or
@@ -45,15 +45,17 @@ This was tested on:
 - Ubuntu 20.10, Gnome terminal 3.38.0
 - Ubuntu 20.10, xterm 353
 - macOS 10.14, terminal.app 2.9
-- Windows 10.0.17763, Windows terminal (CP850)
+- Windows 10.0.17763, Console Host (CP850), `cmd.exe`
+- Windows 10.0.17763, Console Host (CP850), Powershell 5.1
+- Windows 10.0.17763, mintty, Git-for-Windows 2.31.1
 - VSCode 1.54.3 terminal (xterm.js)
 
 With the default font.
 
 Those should be sufficient to catch most cross-platform issues, covering the
-most common cases (not EBCDIC, exotic terminal fonts, etc.). However, if some
-characters listed below do not display correctly on your terminal, please submit
-an issue.
+most common cases (not EBCDIC, Linux kernel console, exotic terminal fonts,
+etc.). However, if some characters listed below do not display correctly on your
+terminal, please submit an issue.
 
 Please note this is **only for terminals not GUI applications**. This includes
 the **web browser** you might use to view this page. This means some characters
