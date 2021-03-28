@@ -69,11 +69,6 @@ This does not cover:
 - EBCDIC
 - Custom fonts
 
-Please note this is **only for terminals not GUI applications**. This includes
-the **web browser** you might use to view this page. This means some characters
-might not be displayed correctly depending on your web browser's font (notably
-using **Chrome on Android**).
-
 # List of characters
 
 The following characters work on most terminals.
