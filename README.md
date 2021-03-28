@@ -47,8 +47,8 @@ encoding.
   - Gnome VTE, XFCE terminal 0.8.9.2
   - Gnome VTE, Guake terminal 3.6.3
   - Gnome VTE, tilix 1.9.3
+  - Gnome VTE, terminator 1.92
   - xterm 353
-  - terminator 1.92
   - konsole 20.08.2
   - rxvt 9.22
   - PuTTY 0.74
