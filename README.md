@@ -33,7 +33,11 @@ correctly on most terminals and environments.
 
 # List of characters
 
-The following characters work on most terminals.
+The following characters work on most terminals. This was tested on:
+
+- Ubuntu 20.10, Gnome terminal 3.38.0
+- macOS 10.14, terminal.app 2.9
+- Windows 10.0.17763, cmd.exe (CP850)
 
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
