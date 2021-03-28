@@ -319,7 +319,7 @@ npx cross-platform-terminal-characters
 ```
 
 If you don't have `npm` installed, the full list is available in
-[`characters.txt`](characters.txt)
+[`characters.txt`](characters.txt). The file is UTF-8 encoded.
 
 # See also
 
