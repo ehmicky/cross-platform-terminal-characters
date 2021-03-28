@@ -308,6 +308,14 @@ console.log(codepoints)
 console.log(characters)
 ```
 
+# CLI
+
+The following command prints the full list of characters and their codepoints.
+
+```
+npx cross-platform-terminal-characters
+```
+
 # See also
 
 - [cross-platform-node-guide](https://github.com/ehmicky/cross-platform-node-guide):

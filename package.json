@@ -6,6 +6,9 @@
     "build/src/**/*.{js,ts,map,json,sh,md}",
     "examples/**/*.{js,ts,map,json,sh,md}"
   ],
+  "bin": {
+    "cross-platform-terminal-characters": "build/src/bin.js"
+  },
   "scripts": {
     "test": "gulp test"
   },
@@ -50,7 +53,9 @@
     "test": "test"
   },
   "devDependencies": {
-    "@ehmicky/dev-tasks": "^0.31.87"
+    "@ehmicky/dev-tasks": "^0.31.87",
+    "execa": "^5.0.0",
+    "get-bin-path": "^5.1.0"
   },
   "engines": {
     "node": ">=10.17.0"
