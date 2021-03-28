@@ -51,6 +51,9 @@ Those terminals are sufficient to catch most cross-platform issues. However, if
 some characters listed below do not display correctly on your terminal, please
 submit an issue to add your terminal.
 
+Please note this is only for terminals, not GUI applications (including the web
+browser you might use view this page).
+
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
 
