@@ -12,4 +12,4 @@ test('Should print all characters', async (t) => {
   })
 })
 
-const LINE_REGEX = /^[0-9a-f]{4} .$/u
+const LINE_REGEX = /^[0-9a-f]{4} {2}.$/u
