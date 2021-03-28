@@ -29,9 +29,8 @@ The main reasons are:
   writing terminal characters.
 
 The first two points can be solved by using characters known to display
-correctly on most terminals and environments.
-
-This repository contains a list of those characters:
+correctly on most terminals and environments. This repository contains a list of
+those characters:
 
 - in this [`README.md`](#list-of-characters)
 - as a [`characters.txt` file](characters.txt)
@@ -67,7 +66,7 @@ This was tested on:
 This does not cover:
 
 - EBCDIC
-- Custom fonts
+- Exotic custom fonts
 
 # List of characters
 
@@ -426,6 +425,17 @@ $    ¢    €    £    ¥    ₧
 ©    ®    ™    №    †    ‡
 ```
 
+# CLI
+
+The following command prints the full list of characters and their codepoints.
+
+```
+npx cross-platform-terminal-characters
+```
+
+If you don't have `npm` installed, the full list is available in
+[`characters.txt`](characters.txt). The file is UTF-8 encoded.
+
 # API
 
 A Node module is available to retrieve the list of characters above or test
@@ -453,22 +463,11 @@ console.log(regex.test('≐'))
 // Remove not cross-platform characters, i.e. print `example ≈ test  text`
 console.log('example ≈ test ≐ text'.replace(regex, ''))
 
-// Array of codepoint integers: [0x0000, 0x0001, ..., 0xfb17]
+// Array of codepoint integers: [0x0008, 0x0009, ..., 0x25cf]
 console.log(codepoints)
-// Array of single-character strings: ['\x00', '\x01', ..., 'ﬗ']
+// Array of single-character strings: ['\b', '\t', ..., '●']
 console.log(characters)
 ```
-
-# CLI
-
-The following command prints the full list of characters and their codepoints.
-
-```
-npx cross-platform-terminal-characters
-```
-
-If you don't have `npm` installed, the full list is available in
-[`characters.txt`](characters.txt). The file is UTF-8 encoded.
 
 # See also
 
