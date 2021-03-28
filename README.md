@@ -45,6 +45,7 @@ The following characters work on most terminals. This was tested on:
 - Ubuntu 20.10, Gnome terminal 3.38.0
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, cmd.exe (CP850)
+- VSCode 1.54.3 terminal (xterm.js)
 
 Those terminals are sufficient to catch most cross-platform issues. However, if
 some characters listed below do not display correctly on your terminal, please
