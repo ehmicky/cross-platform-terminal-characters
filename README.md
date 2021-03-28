@@ -60,6 +60,7 @@ This was tested on:
     - Powershell 5.1
   - mintty, Git-for-Windows 2.31.1
   - ConEmu 201314
+  - Fluent terminal 0.7.5.0
 
 This does not cover:
 
