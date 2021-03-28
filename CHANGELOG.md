@@ -1,3 +1,13 @@
+# 1.1.3
+
+## Features
+
+- Test on xterm
+
+## Bug fixes
+
+- Remove characters not supported on xterm
+
 # 1.1.2
 
 ## Bug fixes
