@@ -1,5 +1,5 @@
 import { codepoints } from './codepoints.js'
-import { serializeHex } from './serialize.js'
+import { serializeHex, serializeCharacter } from './serialize.js'
 
 // All cross-platform characters, as codepoint integers
 export { codepoints }
@@ -17,16 +17,9 @@ const serializeRegexCodepoint = function (codepoint) {
 
 export const regex = getRegex()
 
-// Note: this does not work with characters above U-ffff
-// However, no cross-platform-terminal-characters is currently above U-ffff
-// Otherwise `eval()` should be used instead.
-const codepointToCharacter = function (codepoint) {
-  return String.fromCharCode(codepoint)
-}
-
 // All cross-platform characters, as strings
 const getCharacters = function () {
-  return codepoints.map(codepointToCharacter)
+  return codepoints.map(serializeCharacter)
 }
 
 export const characters = getCharacters()
