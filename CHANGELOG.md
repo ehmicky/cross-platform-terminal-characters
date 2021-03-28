@@ -1,3 +1,14 @@
+# 1.2.0
+
+## Features
+
+- Test on terminator, konsole, rxvt, PuTTY, Linux Console, iTerm2, alacritty,
+  mintty, ConEmu, Fluent terminal, terminus
+- Remove non-cross platform characters from those terminals
+- Add section about control characters
+- Add section about latin, greek and cyrillic alphabet characters
+- Reorganize the `README.md` tables
+
 # 1.1.3
 
 ## Features
