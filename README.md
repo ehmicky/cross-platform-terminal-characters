@@ -54,7 +54,7 @@ submit an issue to add your terminal.
 Please note this is only for terminals _not GUI applications_. This includes the
 web browser you might use to view this page. This means some characters might
 not be displayed correctly depending on your web browser's font (notably using
-Chrome on Android).
+**Chrome on Android**).
 
 # List of characters
 
