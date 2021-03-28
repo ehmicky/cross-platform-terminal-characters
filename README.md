@@ -33,7 +33,7 @@ correctly on most terminals and environments. This repository contains a list of
 those characters:
 
 - in this [`README.md`](#list-of-characters)
-- as a [`characters.txt` file](characters.txt)
+- as a [`characters.txt` file](#text-file)
 - as a [binary](#cli) printing the full list
 - as a [Node.js module](#api) for programmatic usage
 
@@ -425,29 +425,27 @@ $    ¢    €    £    ¥    ₧
 ©    ®    ™    №    †    ‡
 ```
 
+# Text file
+
+The list is available in [`characters.txt`](characters.txt). The file is UTF-8
+encoded.
+
 # CLI
 
-The following command prints the full list of characters and their codepoints.
+The following command prints the list of characters and their codepoints.
 
 ```
 npx cross-platform-terminal-characters
 ```
 
-If you don't have `npm` installed, the full list is available in
-[`characters.txt`](characters.txt). The file is UTF-8 encoded.
-
 # API
 
-A Node module is available to retrieve the list of characters above or test
-specific characters.
-
-## Install
+A Node module is available to retrieve the list of characters above or detect
+non-cross-platform characters.
 
 ```
 npm install cross-platform-terminal-characters
 ```
-
-## Usage
 
 ```js
 const {
