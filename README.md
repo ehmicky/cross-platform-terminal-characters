@@ -42,7 +42,7 @@ This repository contains a list of those characters:
 
 This was tested on:
 
-- Ubuntu 20.10, Gnome terminal 3.38.0
+- Ubuntu 20.10, Gnome VTE, Gnome terminal 3.38.0
 - Ubuntu 20.10, xterm 353
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, Console Host (CP850), `cmd.exe`
