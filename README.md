@@ -76,34 +76,288 @@ The following characters work on most terminals.
 When the character is displayed, its
 [Unicode codepoint](https://en.wikipedia.org/wiki/Code_point) is shown above it.
 
-## ASCII
-
-Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
-[`0020-007f`](<https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block)>) work
-on all terminals.
+## Control characters
 
 [Control characters](https://en.wikipedia.org/wiki/Control_character)
 `0000-001f` and `0080-009f` have varying levels of support. However, the most
 commonly used ones work on all terminals.
 
-## Western languages
+## Latin alphabet
 
-[Most characters](characters.txt) with
-[Unicode codepoints](https://en.wikipedia.org/wiki/Code_point) `00a0-0587` and
-`1e00-1ffe` work on most terminals. They include:
+```
+0041 0042 0043 0044 0045 0046
+A    B    C    D    E    F
+0047 0048 0049 004a 004b 004c
+G    H    I    J    K    L
+004d 004e 004f 0050 0051 0052
+M    N    O    P    Q    R
+0053 0054 0055 0056 0057 0058
+S    T    U    V    W    X
+0059 005a
+Y    Z
 
-- [latin alphabet](<https://en.wikipedia.org/wiki/Latin-1_Supplement_(Unicode_block)>)
-- [greek/coptic alphabet](https://en.wikipedia.org/wiki/Greek_and_Coptic)
-- [cyrillic alphabet](<https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)>)
-- [armenian alphabet](<https://en.wikipedia.org/wiki/Armenian_(Unicode_block)>)
+0061 0062 0063 0064 0065 0066
+a    b    c    d    e    f
+0067 0068 0069 006a 006b 006c
+g    h    i    j    k    l
+006d 006e 006f 0070 0071 0072
+m    n    o    p    q    r
+0073 0074 0075 0076 0077 0078
+s    t    u    v    w    x
+0079 007a
+y    z
+
+00c0 00e0 00c1 00e1 00c2 00e2
+À    à    Á    á    Â    â
+00c3 00e3 00c4 00e4 00c5 00e5
+Ã    ã    Ä    ä    Å    å
+0100 0101 0102 0103 0104 0105
+Ā    ā    Ă    ă    Ą    ą
+00c6 00e6
+Æ    æ
+1e02 1e03
+Ḃ    ḃ
+00c7 00e7 0106 0107 0108 0109
+Ç    ç    Ć    ć    Ĉ    ĉ
+010a 010b 010c 010d
+Ċ    ċ    Č    č
+010e 010f 00d0 0110 00f0 0111
+Ď    ď    Ð    Đ    ð    đ
+1e0a 1e0b
+Ḋ    ḋ
+00c8 00e8 00c9 00e9 00ca 00ea
+È    è    É    é    Ê    ê
+00cb 00eb 0112 0113 0116 0117
+Ë    ë    Ē    ē    Ė    ė
+0118 0119 011a 011b
+Ę    ę    Ě    ě
+0192 1e1e 1e1f
+ƒ    Ḟ    ḟ
+011c 011d 011e 011f 0120 0121
+Ĝ    ĝ    Ğ    ğ    Ġ    ġ
+0122 0123
+Ģ    ģ
+0124 0125 0126 0127
+Ĥ    ĥ    Ħ    ħ
+00cc 00ec 00cd 00ed 00ce 00ee
+Ì    ì    Í    í    Î    î
+00cf 00ef 012a 012b 012e 012f
+Ï    ï    Ī    ī    Į    į
+0130 0131
+İ    ı
+0134 0135
+Ĵ    ĵ
+0136 0137
+Ķ    ķ
+0139 013a 013b 013c 013d 013e
+Ĺ    ĺ    Ļ    ļ    Ľ    ľ
+0141 0142
+Ł    ł
+1e40 1e41
+Ṁ    ṁ
+00d1 00f1 0143 0144 0145 0146
+Ñ    ñ    Ń    ń    Ņ    ņ
+0147 0148
+Ň    ň
+00d2 00f2 00d3 00f3 00d4 00f4
+Ò    ò    Ó    ó    Ô    ô
+00d5 00f5 00d6 00f6 014c 014d
+Õ    õ    Ö    ö    Ō    ō
+0150 0151 0152 0153 00d8 00f8
+Ő    ő    Œ    œ    Ø    ø
+1e56 1e57
+Ṗ    ṗ
+0154 0155 0156 0157 0158 0159
+Ŕ    ŕ    Ŗ    ŗ    Ř    ř
+015a 015b 015c 015d 015e 0218
+Ś    ś    Ŝ    ŝ    Ş    Ș
+015f 0219 0160 0161 1e60 1e61
+ş    ș    Š    š    Ṡ    ṡ
+0162 021a 0163 021b 0164 0165
+Ţ    Ț    ţ    ț    Ť    ť
+1e6a 1e6b
+Ṫ    ṫ
+00d9 00f9 00da 00fa 00db 00fb
+Ù    ù    Ú    ú    Û    û
+00dc 00fc 016a 016b 016c 016d
+Ü    ü    Ū    ū    Ŭ    ŭ
+016e 016f 0170 0171 0172 0173
+Ů    ů    Ű    ű    Ų    ų
+0174 0175 1e80 1e81 1e82 1e83
+Ŵ    ŵ    Ẁ    ẁ    Ẃ    ẃ
+1e84 1e85
+Ẅ    ẅ
+00dd 00fd 0176 0177 0178 00ff
+Ý    ý    Ŷ    ŷ    Ÿ    ÿ
+1ef2 1ef3
+Ỳ    ỳ
+0179 017a 017b 017c 017d 017e
+Ź    ź    Ż    ż    Ž    ž
+00de 00fe
+Þ    þ
+00df
+ß
+```
+
+## Greek alphabet
+
+```
+0391 0392 0393 0394 0395 0396
+Α    Β    Γ    Δ    Ε    Ζ
+03b1 03b2 03b3 03b4 03b5 03b6
+α    β    γ    δ    ε    ζ
+0397 0398 03f4 0399 039a 039b
+Η    Θ    ϴ    Ι    Κ    Λ
+03b7 03b8      03b9 03ba 03bb
+η    θ         ι    κ    λ
+039c      039d 039e 039f 03a0
+Μ         Ν    Ξ    Ο    Π
+00b5 03bc 03bd 03be 03bf 03c0
+µ    μ    ν    ξ    ο    π
+03a1 03a3      03a4 03a5 03a6
+Ρ    Σ         Τ    Υ    Φ
+03c1 03c2 03c3 03c4 03c5 03c6
+ρ    ς    σ    τ    υ    φ
+03a7 03a8 03a9
+Χ    Ψ    Ω
+03c7 03c8 03c9 03f3
+χ    ψ    ω    ϳ
+
+0386 0388 0389 038a 03aa 038c
+Ά    Έ    Ή    Ί    Ϊ    Ό
+038e 03ab 038f 03ac 03ad 03ae
+Ύ    Ϋ    Ώ    ά    έ    ή
+03af 03ca 0390 03cc 03cd 03b0
+ί    ϊ    ΐ    ό    ύ    ΰ
+03cb 03ce 0384 0385
+ϋ    ώ    ΄    ΅
+```
+
+## Cyrillic alphabet
+
+```
+0402 0403 0404 0405 0406 0407
+Ђ    Ѓ    Є    Ѕ    І    Ї
+0408 0409 040a 040b 040c 040d
+Ј    Љ    Њ    Ћ    Ќ    Ѝ
+040e 040f 0410 0411 0412 0413
+Ў    Џ    А    Б    В    Г
+0414 0415 0416 0417 0418 0419
+Д    Е    Ж    З    И    Й
+041a 041b 041c 041d 041e 041f
+К    Л    М    Н    О    П
+0420 0421 0422 0423 0424 0425
+Р    С    Т    У    Ф    Х
+0426 0427 0428 0429 042a 042b
+Ц    Ч    Ш    Щ    Ъ    Ы
+042c 042d 042e 042f 0430 0431
+Ь    Э    Ю    Я    а    б
+0432 0433 0434 0435 0436 0437
+в    г    д    е    ж    з
+0438 0439 043a 043b 043c 043d
+и    й    к    л    м    н
+043e 043f 0440 0441 0442 0443
+о    п    р    с    т    у
+0444 0445 0446 0447 0448 0449
+ф    х    ц    ч    ш    щ
+044a 044b 044c 044d 044e 044f
+ъ    ы    ь    э    ю    я
+0450 0451 0452 0453 0454 0455
+ѐ    ё    ђ    ѓ    є    ѕ
+0456 0457 0458 0459 045a 045b
+і    ї    ј    љ    њ    ћ
+045c 045d 045e 045f 0490 0491
+ќ    ѝ    ў    џ    Ґ    ґ
+04ae 04d0 04d1
+Ү    Ӑ    ӑ
+```
+
+## Numbers
+
+```
+0030 0031 0032 0033 0034 0035
+0    1    2    3    4    5
+0036 0037 0038 0039
+6    7    8    9
+
+24ea 2460 2461 2462 2463 2464
+⓪   ①   ②    ③    ④    ⑤
+2465 2466 2467 2468
+⑥   ⑦    ⑧   ⑨
+
+00ba 00b9 00b2 00b3
+º    ¹    ²    ³
+
+0025 2030 00bc 00bd 00be
+%    ‰    ¼    ½    ¾
+```
+
+## Math
+
+```
+002b 002d 002a 002f 00b1
++    -    *    /    ±
+003d 003c 003e 2260 2264 2265
+=    <    >    ≠    ≤    ≥
+2248 2261
+≈    ≡
+
+00d7 00f7 00ac 2310 2229
+×    ÷    ¬    ⌐    ∩
+221a 221e 2206 2320 2321
+√    ∞    ∆    ⌠    ⌡
+00b0 2126 00aa 207f
+°    Ω    ª    ⁿ
+```
+
+## Spaces
+
+```
+0020
+     (space)
+00a0
+     (non-breaking space)
+```
+
+## Punctuation
+
+```
+0021 00a1 203c 003f 00bf
+!    ¡    ‼    ?    ¿
+002c 002e 2026 003a 003b
+,    .    …    :    ;
+0028 0029 005b 005d 007b 007d
+(    )    [    ]    {    }
+
+0022 0027 0060
+"    '    `
+2018 2019 201a 201c 201d 201e
+‘    ’    ‚    “    ”    „
+00ab 00bb 2039 203a
+«    »    ‹    ›
+
+0026 007c 0023 0040 005c 005f
+&    |    #    @    \    _
+00a7 00b6
+§    ¶
+```
+
+## Accents
+
+```
+007e 005e 00a8 00af 00b4 00b8
+~    ^    ¨    ¯    ´    ¸
+02c6 02c7 02c9 02d8 02d9 02db
+ˆ    ˇ    ˉ    ˘    ˙    ˛
+02dc 02dd
+˜    ˝
+```
 
 ## Box drawing
 
 ```
-2588 2592 2591
-██   ▒▒   ░░
-25a0
-■■
+2588 2592 2591 25a0
+██   ▒▒   ░░   ■
 
 2500 2012 2014 2015 2501
 ─    ‒    —    ―    ━
@@ -112,8 +366,8 @@ commonly used ones work on all terminals.
 257a 257c 257e
 ╺╺   ╼╼   ╾╾
 
-2502 2503
-│    ┃
+2502 2503 00a6
+│    ┃    ¦
 2575 2579 2577 257b 257d 257f
 ╵    ╹    ╷    ╻    ╽    ╿
 
@@ -127,6 +381,7 @@ commonly used ones work on all terminals.
 ┬    ┳    ┴    ┻
 253c 254b 256c
 ┼    ╋    ╬
+
 250d 250e 2511 2512
 ┍    ┎    ┑    ┒
 2515 2516 2519 251a
@@ -150,50 +405,28 @@ commonly used ones work on all terminals.
 ## Geometrical shapes
 
 ```
-2219 2022 25cf 25ca
-∙    •    ●    ◊
+00b7 2219 2022 25cf 25ca
+·    ∙    •    ●    ◊
 25b2 25bc 25b4 25be 25c2 25b8
 ▲    ▼    ▴    ▾    ◂    ▸
 2190 2191 2192 2193
 ←    ↑    →    ↓
 ```
 
-## Punctuation
+## Currency
 
 ```
-2026 2030 203c
-…    ‰    ‼
-
-2018 2019 201a 201c 201d 201e
-‘    ’    ‚    “    ”    „
-2039 203a
-‹    ›
-```
-
-## Numbers and math
-
-```
-2248 2260 2261 2264 2265
-≈    ≠    ≡    ≤    ≥
-
-2206 221a 221e 2320 2321
-∆    √    ∞    ⌠    ⌡
-2229 2310 207f
-∩    ⌐    ⁿ
-
-24ea 2460 2461 2462 2463 2464
-⓪   ①   ②    ③    ④    ⑤
-2465 2466 2467 2468
-⑥   ⑦    ⑧   ⑨
+0024 00a2 20ac 00a3 00a5 20a7
+$    ¢    €    £    ¥    ₧
+20ae 00a4
+₮    ¤
 ```
 
 ## Other symbols
 
 ```
-2020 2021
-†    ‡
-2116 2122 2126 20a7 20ac 20ae
-№    ™    Ω    ₧    €    ₮
+00a9 00ae 2122 2116 2020 2021
+©    ®    ™    №    †    ‡
 ```
 
 # API
