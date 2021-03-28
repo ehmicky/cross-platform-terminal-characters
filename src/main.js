@@ -6,7 +6,8 @@ const getRange = function (min, max) {
 
 /* eslint-disable no-magic-numbers */
 export const codepoints = [
-  ...getRange(0x0000, 0x0377),
+  ...getRange(0x0000, 0x00ac),
+  ...getRange(0x00ad, 0x0377),
   ...getRange(0x037a, 0x037f),
   ...getRange(0x0384, 0x038a),
   0x038c,
@@ -20,8 +21,9 @@ export const codepoints = [
   0x058f,
   0x0e3f,
   ...getRange(0x1d00, 0x1dcf),
-  ...getRange(0x1dd3, 0x1de6),
-  ...getRange(0x1dfc, 0x1f15),
+  ...getRange(0x1dd3, 0x1dd9),
+  ...getRange(0x1ddb, 0x1de6),
+  ...getRange(0x1dfe, 0x1f15),
   ...getRange(0x1f18, 0x1f1d),
   ...getRange(0x1f20, 0x1f45),
   ...getRange(0x1f48, 0x1f4d),
