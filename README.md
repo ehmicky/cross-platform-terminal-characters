@@ -43,6 +43,7 @@ This repository contains a list of those characters:
 This was tested on:
 
 - Ubuntu 20.10, Gnome terminal 3.38.0
+- Ubuntu 20.10, xterm 353
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, Windows terminal (CP850)
 - VSCode 1.54.3 terminal (xterm.js)
@@ -78,15 +79,14 @@ commonly used ones work on all terminals.
 
 ## Western languages
 
-Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
-`00a0-058f` and `1d00-1fff` work on most terminals. They include:
+[Most characters](characters.txt) with
+[Unicode codepoints](https://en.wikipedia.org/wiki/Code_point) `00a0-0587` and
+`1e00-1ffe` work on most terminals. They include:
 
 - [latin alphabet](<https://en.wikipedia.org/wiki/Latin-1_Supplement_(Unicode_block)>)
-- [greek/coptic](https://en.wikipedia.org/wiki/Greek_and_Coptic),
-  [cyrillic](<https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)>),
-  [armenian alphabets](<https://en.wikipedia.org/wiki/Armenian_(Unicode_block)>)
-- [phonetic alphabet](https://en.wikipedia.org/wiki/IPA_Extensions)
-- [accents / diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks)
+- [greek/coptic alphabet](https://en.wikipedia.org/wiki/Greek_and_Coptic)
+- [cyrillic alphabet](<https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)>)
+- [armenian alphabet](<https://en.wikipedia.org/wiki/Armenian_(Unicode_block)>)
 
 ## Box drawing
 
@@ -111,10 +111,10 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 
 2502 2503 2551 2016 2506 2507
 │    ┃    ║    ‖    ┆    ┇
-250a 205e 250b 254e 254f 2575
-┊    ⁞    ┋    ╎    ╏    ╵
-2579 2577 257b 257d 257f
-╹    ╷    ╻    ╽    ╿
+250a 250b 254e 254f 2575 2579
+┊    ┋    ╎    ╏    ╵    ╹
+2577 257b 257d 257f
+╷    ╻    ╽    ╿
 
 250c 256d 250f 250d
 ┌    ╭    ┏    ┍
@@ -218,8 +218,6 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ₀    ₁    ₂    ₃    ₄    ₅
 2086 2087 2088 2089
 ₆    ₇    ₈    ₉
-2090 2091 2092 2093 2094
-ₐ    ₑ    ₒ    ₓ    ₔ
 208a 208b 208c 208d 208e
 ₊    ₋    ₌    ₍    ₎
 
@@ -231,12 +229,10 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ⑫   ⑬   ⑭   ⑮   ⑯   ⑰
 2471 2472 2473
 ⑱   ⑲   ⑳
-24ff 2776 2777 2778 2779 277a
-⓿   ❶    ❷   ❸    ❹    ❺
-277b 277c 277d 277e 277f 24ef
-❻   ❼    ❽    ❾    ❿   ⓯
-24f0 24f1 24f2 24f3 24f4
-⓰   ⓱   ⓲    ⓳   ⓴
+2776 2777 2778 2779 277a 277b
+❶    ❷   ❸    ❹    ❺   ❻
+277c 277d 277e 277f
+❼    ❽    ❾    ❿
 ```
 
 ## Other symbols
@@ -251,8 +247,8 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 
 2105 2113 2116 2117 2122 2126
 ℅    ℓ    №    ℗    ™    Ω
-212e 2132 214d 214e 2183 2184
-℮    Ⅎ    ⅍    ⅎ    Ↄ    ↄ
+212e 2132 2183
+℮    Ⅎ    Ↄ
 
 20a0 20a1 20a2 20a3 20a4 20a5
 ₠    ₡    ₢    ₣    ₤    ₥
@@ -260,35 +256,11 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ₦    ₧    ₨    ₩    ₪    ₫
 20ac 20ad 20ae 20af 20b0 20b1
 €    ₭    ₮    ₯    ₰    ₱
-20b2 20b3 20b4 20b5 20b6 20b7
-₲    ₳    ₴    ₵    ₶    ₷
-20b8 20b9 20ba 20bd 20bf 0e3f
-₸    ₹    ₺    ₽    ₿    ฿
 ```
 
 ## Miscellaneous
 
 ```
-2c60 2c61 2c62 2c63 2c64 2c65
-Ⱡ    ⱡ    Ɫ    Ᵽ    Ɽ    ⱥ
-2c66 2c67 2c68 2c69 2c6a 2c6b
-ⱦ    Ⱨ    ⱨ    Ⱪ    ⱪ    Ⱬ
-2c6c 2c6d 2c6e 2c6f 2c70 2c71
-ⱬ    Ɑ    Ɱ    Ɐ    Ɒ    ⱱ
-2c72 2c73 2c74 2c7e 2c7f
-Ⱳ    ⱳ    ⱴ   Ȿ    Ɀ
-2c75 2c76 2c77 2c78 2c79 2c7a
-Ⱶ    ⱶ    ⱷ    ⱸ    ⱹ    ⱺ
-2c7b 2c7c 2c7d
-ⱻ    ⱼ    ⱽ
-
-a717 a718 a719 a71a a71b a71c
-ꜗ     ꜘ     ꜙ     ꜚ     ꜛ    ꜜ
-a71d a71e a71f a720 a721
-ꜝ    ꜞ    ꜟ    ꜠     ꜡
-a788 a789 a78a a78b a78c
-ꞈ    ꞉    ꞊    Ꞌ    ꞌ
-
 fb00 fb01 fb02 fb03 fb04 fb05
 ﬀ    ﬁ    ﬂ    ﬃ   ﬄ    ﬅ
 fb06
