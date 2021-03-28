@@ -46,6 +46,7 @@ This was tested on:
 - Ubuntu 20.10, xterm 353
 - Ubuntu 20.10, terminator 1.92
 - Ubuntu 20.10, konsole 20.08.2
+- Ubuntu 20.10, PuTTY 0.74
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, Console Host (CP850), `cmd.exe`
 - Windows 10.0.17763, Console Host (CP850), Powershell 5.1
