@@ -49,6 +49,7 @@ This was tested on:
 - Ubuntu 20.10, PuTTY 0.74
 - Ubuntu 20.10, xterm.js, VSCode 1.54.3 terminal
 - macOS 10.14, terminal.app 2.9
+- macOS 10.14, iTerm2 3.4.4
 - Windows 10.0.17763, Console Host (CP850), `cmd.exe`
 - Windows 10.0.17763, Console Host (CP850), Powershell 5.1
 - Windows 10.0.17763, mintty, Git-for-Windows 2.31.1
