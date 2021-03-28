@@ -1,3 +1,9 @@
+# 1.4.0
+
+## Features
+
+- Improve regular expression performance
+
 # 1.3.0
 
 ## Features
