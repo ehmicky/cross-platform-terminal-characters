@@ -62,6 +62,7 @@ This was tested on:
   - mintty, Git-for-Windows 2.31.1
   - ConEmu 201314
   - Fluent terminal 0.7.5.0
+  - Terminus 1.0.135
 
 This does not cover:
 
