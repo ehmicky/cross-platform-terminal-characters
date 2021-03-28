@@ -44,6 +44,7 @@ This was tested on:
 - Ubuntu 20.10:
   - Gnome VTE, Gnome terminal 3.38.0
   - Gnome VTE, XFCE terminal 0.8.9.2
+  - Gnome VTE, Guake terminal 3.6.3
   - xterm 353
   - terminator 1.92
   - konsole 20.08.2
