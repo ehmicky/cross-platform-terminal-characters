@@ -1,3 +1,5 @@
+import { serializeHex } from './serialize.js'
+
 /* eslint-disable max-lines */
 const getRange = function (min, max) {
   const length = max - min + 1
@@ -150,8 +152,17 @@ export const codepoints = [
 ]
 /* eslint-enable no-magic-numbers */
 
-// eslint-disable-next-line no-control-regex
-export const regex = /[^\u0008\u0009\u000A\u000D\u001B\u0020-\u007E\u00A0-\u00AC\u00AE-\u0113\u0116-\u0127\u012A\u012B\u012E-\u0131\u0134-\u0137\u0139-\u013E\u0141-\u0148\u014C\u014D\u0150-\u0165\u016A-\u017E\u0192\u0218-\u021B\u02C6\u02C7\u02C9\u02D8\u02D9\u02DB\u02DC\u02DD\u0384\u0385\u0386\u0388\u0389\u038A\u038C\u038E-\u03A1\u03A3-\u03CE\u03F3\u03F4\u0400-\u045F\u0490\u0491\u04AE\u04D0\u04D1\u1E02\u1E03\u1E0A\u1E0B\u1E1E\u1E1F\u1E40\u1E41\u1E56\u1E57\u1E60\u1E61\u1E6A\u1E6B\u1E80-\u1E85\u1EF2\u1EF3\u2010\u2012-\u2015\u2018\u2019\u201A\u201C\u201D\u201E\u2020\u2021\u2022\u2026\u2030\u2039\u203A\u203C\u207F\u20A7\u20AC\u2116\u2122\u2126\u2190-\u2193\u2206\u2212\u2219\u221A\u221E\u2229\u2248\u2260\u2261\u2264\u2265\u2310\u2320\u2321\u2460-\u2468\u24EA\u2500-\u2503\u250C\u250F\u2510\u2513\u2514\u2517\u2518\u251B\u251C\u251D\u2520\u2523\u2524\u2525\u2528\u252B\u252C\u252F\u2530\u2533\u2534\u2537\u2538\u253B\u253C\u253F\u2542\u254B\u256A\u256C\u2588\u2591\u2592\u25A0\u25B2\u25BC\u25CA\u25CF]/gu
+const getRegex = function () {
+  const regexCodepoints = codepoints.map(serializeRegexCodepoint).join('')
+  return new RegExp(`[^${regexCodepoints}]`, 'gu')
+}
+
+const serializeRegexCodepoint = function (codepoint) {
+  const hex = serializeHex(codepoint)
+  return `\\u${hex}`
+}
+
+export const regex = getRegex()
 
 // Note: this does not work with characters above U-ffff
 // However, no cross-platform-terminal-characters is currently above U-ffff

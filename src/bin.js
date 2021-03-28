@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { codepoints } from './main.js'
+import { serializeHex } from './serialize.js'
 
 // Print all cross-platform terminal characters
 const runCli = function () {
@@ -42,12 +43,5 @@ const serializeCodepoint = function (codepoint) {
   const character = String.fromCharCode(codepoint)
   return `${hex}  ${character}`
 }
-
-const serializeHex = function (codepoint) {
-  return codepoint.toString(HEX_RADIX).padStart(CODEPOINT_MAX_LENGTH, '0')
-}
-
-const HEX_RADIX = 16
-const CODEPOINT_MAX_LENGTH = 4
 
 runCli()
