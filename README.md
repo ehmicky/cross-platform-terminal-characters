@@ -316,6 +316,9 @@ The following command prints the full list of characters and their codepoints.
 npx cross-platform-terminal-characters
 ```
 
+If you don't have `npm` installed, the full list is available in
+[`characters.txt`](characters.txt)
+
 # See also
 
 - [cross-platform-node-guide](https://github.com/ehmicky/cross-platform-node-guide):
