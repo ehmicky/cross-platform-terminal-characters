@@ -20,7 +20,17 @@
         "ideas",
         "doc"
       ]
+    },
+    {
+      "login": "bshanks",
+      "name": "Bayle Shanks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/586225?v=4",
+      "profile": "http://bayleshanks.com",
+      "contributions": [
+        "userTesting"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
