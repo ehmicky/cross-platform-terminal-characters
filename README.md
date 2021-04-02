@@ -43,17 +43,19 @@ This was tested on the following terminals, with their default font and
 encoding.
 
 - Ubuntu 20.10:
-  - Gnome VTE, Gnome terminal 3.38.0
-  - Gnome VTE, XFCE terminal 0.8.9.2
-  - Gnome VTE, Guake terminal 3.6.3
-  - Gnome VTE, tilix 1.9.3
-  - Gnome VTE, terminator 1.92
+  - Gnome VTE:
+     - Gnome terminal 3.38.0
+     - XFCE terminal 0.8.9.2
+     - Guake terminal 3.6.3
+     - tilix 1.9.3
+     - terminator 1.92
   - xterm 353
   - konsole 20.08.2
   - rxvt 9.22
   - PuTTY 0.74
-  - xterm.js, VSCode 1.54.3 terminal
-  - xterm.js, hyper 3.0.2
+  - xterm.js:
+     - VSCode terminal 1.54.3
+     - hyper 3.0.2
   - Linux console (kernel)
 - macOS 10.14:
   - terminal.app 2.9
