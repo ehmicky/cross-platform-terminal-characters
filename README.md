@@ -75,6 +75,7 @@ This does not cover:
 
 - EBCDIC
 - Exotic custom fonts
+- Other locales than `en_US` for the following terminals: Linux console (kernel)
 
 # List of characters
 
