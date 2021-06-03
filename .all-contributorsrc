@@ -29,6 +29,17 @@
       "contributions": [
         "userTesting"
       ]
+    },
+    {
+      "login": "michaelerule",
+      "name": "M Rule",
+      "avatar_url": "https://avatars.githubusercontent.com/u/687425?v=4",
+      "profile": "https://github.com/michaelerule",
+      "contributions": [
+        "ideas",
+        "mentoring",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,

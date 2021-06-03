@@ -491,6 +491,7 @@ Thanks go to these wonderful people:
   <tr>
     <td align="center"><a href="https://twitter.com/ehmicky"><img src="https://avatars2.githubusercontent.com/u/8136211?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ehmicky</b></sub></a><br /><a href="https://github.com/ehmicky/cross-platform-terminal-characters/commits?author=ehmicky" title="Code">💻</a> <a href="#design-ehmicky" title="Design">🎨</a> <a href="#ideas-ehmicky" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/ehmicky/cross-platform-terminal-characters/commits?author=ehmicky" title="Documentation">📖</a></td>
     <td align="center"><a href="http://bayleshanks.com"><img src="https://avatars.githubusercontent.com/u/586225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bayle Shanks</b></sub></a><br /><a href="#userTesting-bshanks" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://github.com/michaelerule"><img src="https://avatars.githubusercontent.com/u/687425?v=4?s=100" width="100px;" alt=""/><br /><sub><b>M Rule</b></sub></a><br /><a href="#ideas-michaelerule" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-michaelerule" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/ehmicky/cross-platform-terminal-characters/pulls?q=is%3Apr+reviewed-by%3Amichaelerule" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
