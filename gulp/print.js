@@ -12,7 +12,7 @@ export const print = async function () {
   await childProcess
 }
 
-const LIST_PATH = `${__dirname}/../characters.txt`
+const LIST_PATH = new URL('../characters.txt', import.meta.url)
 
 // eslint-disable-next-line fp/no-mutation
 print.description = 'Print the list of characters to a file for non-npm users'
