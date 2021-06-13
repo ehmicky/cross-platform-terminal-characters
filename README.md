@@ -435,12 +435,14 @@ non-cross-platform characters.
 npm install cross-platform-terminal-characters
 ```
 
+<!-- eslint-disable node/no-missing-import -->
+
 ```js
-const {
+import {
   regex,
   codepoints,
   characters,
-} = require('cross-platform-terminal-characters')
+} from 'cross-platform-terminal-characters'
 
 // false, i.e. cross-platform
 console.log(regex.test('≈'))
