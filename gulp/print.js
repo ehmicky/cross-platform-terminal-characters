@@ -14,5 +14,4 @@ export const print = async function () {
 
 const LIST_PATH = new URL('../characters.txt', import.meta.url)
 
-// eslint-disable-next-line fp/no-mutation
 print.description = 'Print the list of characters to a file for non-npm users'
