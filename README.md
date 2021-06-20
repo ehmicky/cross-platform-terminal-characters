@@ -435,8 +435,6 @@ non-cross-platform characters.
 npm install cross-platform-terminal-characters
 ```
 
-<!-- eslint-disable node/no-missing-import -->
-
 ```js
 import {
   regex,
