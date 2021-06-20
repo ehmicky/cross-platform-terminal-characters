@@ -54,7 +54,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "@ehmicky/dev-tasks": "^1.0.21",
+    "@ehmicky/dev-tasks": "^1.0.22",
     "execa": "^5.1.1",
     "get-bin-path": "^5.1.0"
   },
