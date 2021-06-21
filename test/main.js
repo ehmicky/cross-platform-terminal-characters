@@ -3,7 +3,6 @@ import {
   codepoints,
   characters,
   regex,
-  // eslint-disable-next-line import/no-unresolved, node/no-missing-import
 } from 'cross-platform-terminal-characters'
 
 test('codepoints has a valid shape', (t) => {
