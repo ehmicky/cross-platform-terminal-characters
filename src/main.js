@@ -2,6 +2,7 @@ import { codepoints } from './codepoints.js'
 import { serializeHex, serializeCharacter } from './serialize.js'
 
 // All cross-platform characters, as codepoint integers
+// eslint-disable-next-line unicorn/prefer-export-from
 export { codepoints }
 
 // Regular expression matching any non-cross-platform character
