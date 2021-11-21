@@ -40,7 +40,7 @@ test('characters corresponds to codepoints', (t) => {
   t.is(characters.length, codepoints.length)
   t.true(
     characters.every(
-      (character, index) => character.charCodeAt(0) === codepoints[index],
+      (character, index) => character.codePointAt(0) === codepoints[index],
     ),
   )
 })
