@@ -1,9 +1,5 @@
 import { codepoints } from './codepoints.js'
-import { serializeHex, serializeCharacter } from './serialize.js'
-
-// All cross-platform characters, as codepoint integers
-// eslint-disable-next-line unicorn/prefer-export-from
-export { codepoints }
+import { serializeHex } from './serialize.js'
 
 // Regular expression matching any non-cross-platform character
 const getRegex = function () {
@@ -20,7 +16,13 @@ export const regex = getRegex()
 
 // All cross-platform characters, as strings
 const getCharacters = function () {
-  return codepoints.map(serializeCharacter)
+  return codepoints.map(serializeCodepoint)
+}
+
+const serializeCodepoint = function (codepoint) {
+  return String.fromCodePoint(codepoint)
 }
 
 export const characters = getCharacters()
+// All cross-platform characters, as codepoint integers
+export { codepoints }

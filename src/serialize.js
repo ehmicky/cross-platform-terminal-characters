@@ -5,11 +5,3 @@ export const serializeHex = function (codepoint) {
 
 const HEX_RADIX = 16
 const CODEPOINT_MAX_LENGTH = 4
-
-// Serialize codepoint integer to a character string.
-// Note: this does not work with characters above U-ffff
-// However, no cross-platform-terminal-characters is currently above U-ffff
-// Otherwise `eval()` should be used instead.
-export const serializeCharacter = function (codepoint) {
-  return String.fromCharCode(codepoint)
-}
