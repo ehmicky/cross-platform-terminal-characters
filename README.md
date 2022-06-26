@@ -1,8 +1,8 @@
 <img src="https://raw.githubusercontent.com/ehmicky/design/main/cross-platform/cross-platform.svg?sanitize=true" width="500"/>
 
 [![Node](https://img.shields.io/node/v/cross-platform-terminal-characters.svg?logo=node.js)](https://www.npmjs.com/package/cross-platform-terminal-characters)
-[![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-4cc61e.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
-[![Medium](https://img.shields.io/badge/%E2%80%8B-medium-4cc61e.svg?logo=medium)](https://medium.com/@ehmicky)
+[![Twitter](https://img.shields.io/badge/%E2%80%8B-twitter-brightgreen.svg?logo=twitter)](https://twitter.com/intent/follow?screen_name=ehmicky)
+[![Medium](https://img.shields.io/badge/%E2%80%8B-medium-brightgreen.svg?logo=medium)](https://medium.com/@ehmicky)
 
 All the characters that work on most terminals.
 
