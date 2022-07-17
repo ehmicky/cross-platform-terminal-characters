@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "cross-platform-terminal-characters": ["."]
+    }
+  }
+}
