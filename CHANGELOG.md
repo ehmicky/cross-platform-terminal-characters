@@ -1,3 +1,9 @@
+# 3.1.0
+
+## Features
+
+- Add TypeScript types
+
 # 3.0.0
 
 ## Breaking changes
