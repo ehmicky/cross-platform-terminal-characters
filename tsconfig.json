@@ -8,10 +8,6 @@
     "exactOptionalPropertyTypes": true,
     "noUncheckedIndexedAccess": true,
     "useUnknownInCatchVariables": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "cross-platform-terminal-characters": ["."]
-    }
+    "noEmit": true
   }
 }
