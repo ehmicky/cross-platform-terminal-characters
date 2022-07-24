@@ -470,6 +470,8 @@ not `require()`.
   Windows terminal fallbacks
 - [log-symbols](https://github.com/sindresorhus/log-symbols): Colored symbols
   for various log levels
+- [awesome-codepoints](https://github.com/Codepoints/awesome-codepoints):
+  Curated list of Unicode characters with interesting features
 
 # Support
 
