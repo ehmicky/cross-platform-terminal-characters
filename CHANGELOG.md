@@ -1,3 +1,9 @@
+# 3.2.0
+
+## Features
+
+- Reduce npm package size
+
 # 3.1.0
 
 ## Features
