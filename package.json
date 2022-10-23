@@ -50,7 +50,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "@ehmicky/dev-tasks": "^1.0.95",
+    "@ehmicky/dev-tasks": "^1.0.96",
     "execa": "^6.1.0",
     "get-bin-path": "^7.1.0"
   },
