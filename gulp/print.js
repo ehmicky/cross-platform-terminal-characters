@@ -1,4 +1,4 @@
-import { createWriteStream } from 'fs'
+import { createWriteStream } from 'node:fs'
 
 import { execa } from 'execa'
 import { getBinPath } from 'get-bin-path'
