@@ -15,6 +15,7 @@
   "bin": {
     "cross-platform-terminal-characters": "build/src/bin.js"
   },
+  "sideEffects": false,
   "scripts": {
     "test": "gulp test"
   },
