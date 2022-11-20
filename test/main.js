@@ -15,7 +15,7 @@ const isValidCodepoint = function (codepoint) {
 }
 
 test('codepoints does not contain duplicates', (t) => {
-  t.is([...new Set(codepoints)].length, codepoints.length)
+  t.is(new Set(codepoints).size, codepoints.length)
 })
 
 test('codepoints is sorted', (t) => {
