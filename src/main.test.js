@@ -11,9 +11,8 @@ test('codepoints has a valid shape', (t) => {
   t.true(codepoints.every(isValidCodepoint))
 })
 
-const isValidCodepoint = function (codepoint) {
-  return Number.isInteger(codepoint) && codepoint >= 0
-}
+const isValidCodepoint = (codepoint) =>
+  Number.isInteger(codepoint) && codepoint >= 0
 
 test('codepoints does not contain duplicates', (t) => {
   t.is(new Set(codepoints).size, codepoints.length)
@@ -24,18 +23,15 @@ test('codepoints is sorted', (t) => {
   t.deepEqual([...codepoints].sort(sortByNumber), codepoints)
 })
 
-const sortByNumber = function (numberA, numberB) {
-  return numberA - numberB
-}
+const sortByNumber = (numberA, numberB) => numberA - numberB
 
 test('characters has a valid shape', (t) => {
   t.true(Array.isArray(characters))
   t.true(characters.every(isCharacter))
 })
 
-const isCharacter = function (character) {
-  return typeof character === 'string' && character.length === 1
-}
+const isCharacter = (character) =>
+  typeof character === 'string' && character.length === 1
 
 test('characters corresponds to codepoints', (t) => {
   t.is(characters.length, codepoints.length)

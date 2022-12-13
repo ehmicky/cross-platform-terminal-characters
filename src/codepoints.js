@@ -1,6 +1,6 @@
 /* eslint-disable max-lines, no-magic-numbers,
    unicorn/numeric-separators-style */
-const getRange = function (min, max) {
+const getRange = (min, max) => {
   const length = max - min + 1
   return Array.from({ length }, (_, index) => min + index)
 }
