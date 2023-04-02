@@ -54,7 +54,7 @@
     "lib": "src"
   },
   "devDependencies": {
-    "@ehmicky/dev-tasks": "^2.0.71",
+    "@ehmicky/dev-tasks": "^2.0.72",
     "execa": "^7.1.1",
     "get-bin-path": "^9.0.0"
   },
