@@ -1,5 +1,4 @@
 import test from 'ava'
-
 import {
   codepoints,
   characters,
