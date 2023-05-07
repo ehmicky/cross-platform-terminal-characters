@@ -56,7 +56,7 @@
   "devDependencies": {
     "@ehmicky/dev-tasks": "^2.0.80",
     "execa": "^7.1.1",
-    "get-bin-path": "^9.0.0"
+    "get-bin-path": "^10.0.0"
   },
   "engines": {
     "node": ">=16.17.0"
