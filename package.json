@@ -45,7 +45,10 @@
   ],
   "license": "Apache-2.0",
   "homepage": "https://www.github.com/ehmicky/cross-platform-terminal-characters",
-  "repository": "ehmicky/cross-platform-terminal-characters",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehmicky/cross-platform-terminal-characters.git"
+  },
   "bugs": {
     "url": "https://github.com/ehmicky/cross-platform-terminal-characters/issues"
   },
