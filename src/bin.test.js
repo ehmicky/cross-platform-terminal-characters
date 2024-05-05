@@ -1,15 +1,14 @@
 import test from 'ava'
-import { execa } from 'execa'
+import { execaNode } from 'execa'
 import { getBinPath } from 'get-bin-path'
 
 const binPath = getBinPath()
 
 test('Should print all characters', async (t) => {
-  const { stdout } = await execa(await binPath)
-  const lines = stdout.split('\n')
-  lines.forEach((line) => {
+  // eslint-disable-next-line fp/no-loops
+  for await (const line of execaNode(await binPath)) {
     t.regex(line, LINE_REGEX)
-  })
+  }
 })
 
 const LINE_REGEX = /^[0-9a-f]{4} {2}.$/u
