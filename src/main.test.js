@@ -19,7 +19,6 @@ test('codepoints does not contain duplicates', (t) => {
 })
 
 test('codepoints is sorted', (t) => {
-  // eslint-disable-next-line fp/no-mutating-methods
   t.deepEqual([...codepoints].sort(sortByNumber), codepoints)
 })
 
