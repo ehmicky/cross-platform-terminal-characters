@@ -1,8 +1,8 @@
 import test from 'ava'
 
 import {
-  codepoints,
   characters,
+  codepoints,
   regex,
 } from 'cross-platform-terminal-characters'
 

@@ -1,8 +1,8 @@
 import { expectType } from 'tsd'
 
 import {
-  codepoints,
   characters,
+  codepoints,
   regex,
 } from 'cross-platform-terminal-characters'
 

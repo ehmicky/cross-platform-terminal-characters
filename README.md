@@ -450,9 +450,9 @@ npm install cross-platform-terminal-characters
 
 ```js
 import {
-  regex,
-  codepoints,
   characters,
+  codepoints,
+  regex,
 } from 'cross-platform-terminal-characters'
 
 // false, i.e. cross-platform
